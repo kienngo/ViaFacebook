@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/logo"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Login with Facebook"
+            android:background="@color/purple_500"
+            android:id="@+id/btn_login_facebook"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
